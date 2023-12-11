@@ -14,6 +14,7 @@ const fields = [
     'Property__c.Location__Latitude__s',
     'Property__c.Location__Longitude__s'
 ];
+
 export default class PropertyMap extends LightningElement {
     address;
     error;

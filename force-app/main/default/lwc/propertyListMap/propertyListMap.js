@@ -49,7 +49,7 @@ export default class PropertyListMap extends LightningElement {
             // Display properties on map
             this.displayProperties();
         } else if (error) {
-            this.properties = [];
+            //this.properties = [];
             this.dispatchEvent(
                 new ShowToastEvent({
                     title: 'Error loading properties',

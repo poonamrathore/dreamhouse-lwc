@@ -21,7 +21,7 @@ public with sharing class FileUtilities {
 
             ContentDocumentLink contentDocumentLink = new ContentDocumentLink();
             contentDocumentLink.ContentDocumentId = contentVersion.ContentDocumentId;
-            contentDocumentLink.LinkedEntityId = recordId;
+            //contentDocumentLink.LinkedEntityId = recordId;
             contentDocumentLink.ShareType = 'V';
             insert contentDocumentLink;
 
