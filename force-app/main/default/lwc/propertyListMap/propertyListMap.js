@@ -12,7 +12,6 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { loadScript, loadStyle } from 'lightning/platformResourceLoader';
 import LEAFLET from '@salesforce/resourceUrl/leafletjs';
 import getPagedPropertyList from '@salesforce/apex/PropertyController.getPagedPropertyList';
-
 const LEAFLET_NOT_LOADED = 0;
 const LEAFLET_LOADING = 1;
 const LEAFLET_READY = 2;
